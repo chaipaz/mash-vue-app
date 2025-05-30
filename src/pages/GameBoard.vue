@@ -84,16 +84,7 @@
   import { generatePrompt } from '../utils/useMashStoryPrompt.ts'
   import { generateStory } from '../composables/useOpenAI' 
 
-
-  interface CategoryInputData {
-    name: string
-    options: string[]
-  }
-
-  interface Result {
-    category: string
-    choice: string
-  }
+  import type { CategoryInputData, Result } from '../types';
 
   const showInstructions = ref(false)
   const showSettings = ref(false)

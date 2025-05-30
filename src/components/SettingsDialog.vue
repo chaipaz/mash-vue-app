@@ -63,6 +63,7 @@
 
 <script lang="ts" setup>
   import { ref, watch } from 'vue'
+  import type { CategorySetting } from '../types';
   // @ts-ignore
   import presetCategories from '@/assets/presetCategories.json'
 
@@ -86,13 +87,6 @@
   const numCategories = ref(props.initialNumCategories)
   const numOptions = ref(props.initialNumOptions)
 
-  // Structure for each category setting
-  interface CategorySetting {
-    selected: string | null
-    custom: string
-  }
-
-  // Initialize category settings with initialCategories or empty
   const categorySettings = ref<CategorySetting[]>([])
 
   const resetCategorySettings = () => {
