@@ -20,7 +20,7 @@ export const generateStory = async (prompt: string): Promise<string> => {
     messages: [ 
       { role: 'system', content: 'You are a creative fortune teller' },
       { role: 'user', content: prompt } ],
-    temperature: 0.8,
+    temperature: 0.75,
     max_tokens: 1000,
   }
 

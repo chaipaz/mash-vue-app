@@ -9,6 +9,7 @@
       <v-card-text>
         <p>MASH is a fun fortune-telling game! You'll choose several options for categories like:</p>
         <ul>
+          
           <li>Where you'll live (Mansion, Apartment, Shack, House)</li>
           <li>Who you'll marry</li>
           <li>Your job, car, and more!</li>
