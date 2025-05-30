@@ -73,7 +73,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { onMounted, onBeforeUnmount, reactive, ref} from 'vue'
+  import { reactive, ref} from 'vue'
   import InitialPromptDialog from '../components/InitialPromptDialog.vue'
   import AppBar from '../components/AppBar.vue'
   import InstructionsDialog from '../components/InstructionsDialog.vue'
